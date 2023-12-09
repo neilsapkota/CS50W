@@ -8,14 +8,24 @@ Objective:
 The goal of this project is to expand on the functionality of a basic search engine by creating a custom front end for Google Search. This involves exploring and understanding Google's interface, identifying the required GET parameters, and incorporating the necessary HTML and CSS elements into your website.
 
 How It Works
+
+
 Project Requirements:
+
+
 Three Pages:
+
+
 Regular Google Search (index.html)
+
 Google Image Search
+
 Google Advanced Search
 
 Navigation:
+
 Links on the Google Search page to navigate to Image Search or Advanced Search.
+
 Links on Image Search and Advanced Search pages to return to Google Search.
 
 Google Search Page:
