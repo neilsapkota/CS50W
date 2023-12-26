@@ -10,6 +10,7 @@ Youtube Video Link : https://www.youtube.com/watch?v=bH7x9uJpZ4g
 
 Requirements for this Project are :
 -----------------------------------
+
 1.Three Pages:
 ---------------
 Regular Google Search (index.html)
