@@ -1,7 +1,7 @@
 CS50W Mail
 ----------
 
-Youtube Video Link : https://www.youtube.com/watch?v=nOfSkvWT8VM
+Youtube Video Link : https://www.youtube.com/watch?v=U3uSeCAxTdQ
 ----------------------------------------------------------------
 
 My Project has met all the following requirements : 
