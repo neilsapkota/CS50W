@@ -1,0 +1,38 @@
+{% load static %}
+
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="{% static 'network/styles.css' %}" rel="stylesheet">
+    <script type="text/javascript" src="{% static 'network/like.js' %}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="bar">
+    <a class = "navbar-brand" href = "{% url 'index'%}"> Home </a>
+    <a class="navbar-brand" href="{%  url 'blog' %}">Blogs</a>
+    <a class="navbar-brand" href="{%  url 'about' %}">About</a>
+    <a class = "navbar-brand" href = "{% url 'marketplace'%}">Marketplace</a>
+    <a class = "navbar-brand" href = "{% url 'chat'%}"> Public Chat </a> 
+    {% if user.is_authenticated %}
+    <li class="nav-item">
+        <a class="nav-link" href="{% url 'logout' %}">Log Out</a>
+    </li>
+{% else %}
+    <li class="nav-item">
+        <a class="nav-link" href="{% url 'login' %}">Log In</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{% url 'register' %}">Register</a>
+    </li>
+{% endif %}
+</nav>
+<br>
+<br>
+</body>
+
+
+    {% block body %}
+    <h1> This page is under construction </h1>
+    {% endblock %}
