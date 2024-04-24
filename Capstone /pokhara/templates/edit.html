@@ -1,0 +1,14 @@
+{% extends "pokhara/layout.html" %}
+{% load static %}
+{% block body %}
+<link href="{% static 'network/styles.css' %}" rel="stylesheet">
+<div class="edit-comment-form">
+    <h2>Edit Comment</h2>
+    <form action="{% url 'edit_comment' comment_id=comment_id %}" method="POST">
+        {% csrf_token %}
+        <textarea class="form-control" name="editedComment" rows="3" >{{ comment.message }}</textarea>
+
+        <button type="submit" class="btn btn-primary">Publish</button>
+    </form>
+</div>
+{% endblock %}

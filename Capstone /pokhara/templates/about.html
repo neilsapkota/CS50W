@@ -1,0 +1,56 @@
+{% extends "pokhara/layout.html" %}
+{% load static %}
+{% block body %}
+<h1>About </h1>
+{% if user.is_authenticated %}
+ Signed in as <strong>{{ user.username }}</strong>
+{% else %}
+<textarea class="form-control" aria-label="With textarea" name="content" disabled>You need to be signed in</textarea>
+{% endif %}
+
+<div class = "paragraph">
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTehg0J2LOmdpIrkxqWLWV_yY_BuRKxDhUU1FtM1FVUaQ&s" width = 400px>
+    <br>
+    <br>
+<p> 
+    In the digital age, community engagement and commerce have transcended physical boundaries, bringing people together on virtual platforms. MyPokhara is a prime example of such a platform, tailor-made for the residents of Pokhara, Nepal. Serving as a nexus for news, information, blogs, and soon, a marketplace, MyPokhara is revolutionizing how Pokhreli people connect, share, and transact within their community.
+    <br>
+    <br>
+    Community-Centric Features:
+    <br>
+    <br>
+    MyPokhara is more than just a website; it's a digital hub designed to serve the unique needs of Pokhara's residents. Its blog section provides a space for locals to share their experiences, insights, and stories, fostering a sense of belonging and community pride. Whether it's a travelogue of Pokhara's scenic spots or a culinary exploration of its local delicacies, MyPokhara celebrates the rich tapestry of Pokhreli culture through the voices of its people.
+    <br>
+    <br>
+    Moreover, the platform allows users to engage with and support their fellow community members by liking and commenting on their blog posts. This interactive feature encourages dialogue, connection, and mutual appreciation among Pokhara's residents, strengthening the fabric of their social bonds.
+    <br>
+    <br>
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbrMWV5kMXOH-pYN_OEK35JghOaJzDM03ktIOnAXiPy0-4CvMT-bAcfKLTb6bzGL_Y_U&usqp=CAU" width = 400px>
+    <br>
+    <br>
+    Information Hub:
+    <br>
+    <br>
+    Beyond personal narratives, MyPokhara serves as a vital source of news and information for Pokhara's populace. From local events and developments to weather updates and emergency alerts, the platform keeps residents informed and connected to the pulse of their city. By consolidating relevant information in one accessible space, MyPokhara empowers its users to stay abreast of what's happening in their community, fostering a sense of unity and collective awareness.
+    <br>
+    <br>
+    Expansion into Commerce:
+    <br>
+    <br>
+    Building upon its success as a community-centric platform, MyPokhara is set to introduce a marketplace feature, further enhancing its utility for Pokhara's residents. The marketplace will enable locals to buy and sell products within their community, facilitating economic transactions and fostering entrepreneurship.
+   <br>
+   <br>
+By bringing commerce onto the platform, MyPokhara aims to catalyze local economic growth and promote self-reliance among Pokhara's residents. Whether it's handmade crafts, locally sourced produce, or unique artisanal goods, the marketplace will showcase the diverse talents and offerings of Pokhara's entrepreneurial ecosystem, creating opportunities for both buyers and sellers to thrive.
+    <br>
+    <br>
+    Impact and Future Prospects:
+    <br>
+    <br>
+    The advent of MyPokhara has had a profound impact on the social, cultural, and economic landscape of Pokhara. It has empowered residents to share their stories, stay informed, and engage in meaningful interactions within their community. As the platform continues to evolve and expand, its potential to catalyze positive change and innovation in Pokhara remains boundless.
+<br>
+<br>
+Looking ahead, MyPokhara envisions becoming the go-to destination for all things Pokhara, serving as a virtual town square where residents can connect, collaborate, and contribute to the growth and prosperity of their beloved city. With its unwavering commitment to community empowerment and enrichment, MyPokhara is poised to redefine the digital landscape of Pokhara, one click at a time.
+</p>
+
+</div>
+    {% endblock %}
