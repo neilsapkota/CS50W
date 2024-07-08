@@ -12,15 +12,17 @@ The Blog Page allows users to create posts, like posts, comment on posts, edit c
 
 Additionally, the site includes an About Page where the creator of this project (me) describes how the website works. The Home Page provides information about Pokhara, allowing people from other places to learn about the city. There are also Login and Register pages to ensure that only signed-in users can create posts and perform various operations.
 
+
 Distinctiveness and Complexity
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Content Creation and Sharing:
 
+Content Creation and Sharing:
 Similar to social media platforms, MyPokhara allows users to create and share content through blog posts.
 This fosters a sense of community and encourages the exchange of ideas and experiences.
 
-Informative Resource:
 
+
+Informative Resource:
 The project incorporates aspects of a tourism website by providing informative content about Pokhara.
 This makes it a valuable resource for visitors and residents alike, helping them explore the city's offerings.
 
@@ -43,7 +45,7 @@ By combining these elements, MyPokhara goes beyond the scope of a singular purpo
 
 
 Unique Features of MyPokhara
-
+----------------------------
 1. **Blogging Functionality**: Users can create, edit, and delete posts, as well as comment on and like posts. This is different from the previous projects, which did not include such comprehensive user-generated content management.
 
 2. **Tourism Information**: The website serves as a resource for tourists, providing information about Pokhara's attractions. This adds a layer of complexity and purpose beyond a simple blogging platform.
@@ -57,21 +59,25 @@ Unveiling the Technical Expertise
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 The project's technical foundation is built on two key technologies: Django and JavaScript. Let's explore how they contribute to MyPokhara's functionality:
 
-Django: The Powerhouse Backend:
 
+Django: The Powerhouse Backend:
+-------------------------------
 Django serves as the backbone of MyPokhara, handling data storage, retrieval, and manipulation.
 It efficiently manages the user accounts, blog posts, comments, likes, and other website elements.
 
-JavaScript: Interactive Frontend:
 
+
+JavaScript: Interactive Frontend:
+---------------------------------
 JavaScript takes care of the user's interactive experience on the front-end.
 It enables features like the like button functionality (updating like counts without reloading the page) and potentially future functionalities like real-time chat.
 This combination empowers MyPokhara to deliver a dynamic and user-friendly experience.
 The seamless interaction between Django's data management and JavaScript's front-end responsiveness makes MyPokhara a well-rounded web application.
 
 
-Responsive Design: A User-Centric Approach
 
+Responsive Design: A User-Centric Approach
+-------------------------------------------
 MyPokhara takes user experience a step further by incorporating responsive design principles.
 This ensures that the website adapts its layout to different screen sizes, be it a desktop computer, a tablet, or a mobile phone.
 This widens the project's reach and ensures accessibility for a broader audience.
@@ -86,11 +92,13 @@ Files and What's Inside Them
 -------------------------------------------------------------------------------------------------------------------------------------
  pokhara
  --------
+
  
  static/static
 ------------------------------------------------------------------------------------------------------------------------------------
  **like.js**: This JavaScript file handles the front-end functionality related to liking posts.
  It sends asynchronous requests to the server to update the like count without reloading the page.
+
  
  **styles.css**: 
  
@@ -100,21 +108,36 @@ Files and What's Inside Them
 templates/pokhara
 -----------------------------------------------------------------------------------------------------------------------------------
 **about.html**: This template file provides information about how the website works and its purpose. 
+
  **blog.html**: This is the main page for blogs, displaying a list of all blog posts.
+ 
  **index.html**: This is the main homepage for the entire website, offering a general overview of Pokhara and the site's purpose. 
- **chat.html**: This template file is for the Public Chat Page, where users can engage in real-time conversations. 
+ 
+ **chat.html**: This template file is for the Public Chat Page, where users can engage in real-time conversations.
+ 
  **marketplace.html**: This template file is for the Marketplace Page, where users can buy and sell items. 
+ 
  **edit.html**: This template file is for editing posts, allowing users to modify their content. 
+ 
  **create.html**: This template file is for creating new blog posts. 
+ 
  **layout.html**: This is the base template for displaying all other templates. It contains the navigation bar and common elements.
+ 
  **login.html**: This template file is for logging in users.
+ 
  **register.html**: This template file is for registering new users.
+ 
  **post.html**: This template file displays individual posts when users click on "View Post."
+ 
  **user.html**: This template file provides details about the user, including their posts and comments.
+
+
 
 admin.py
 -----------------------------------------------------------------------------------------------------------------------------------
 This file registers Django models to be used in the application, allowing them to be managed through the Django admin interface.
+
+
 
 models.py
 --------------------------------------------------------------------------------------
@@ -149,6 +172,7 @@ It includes custom timezone settings, email settings, credentials from the .env 
 urls.py
 ---------------------------------------------------------------------------
 This file contains the project's URLs and settings for serving media files.
+
  
 
 Models
