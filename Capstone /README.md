@@ -1,7 +1,6 @@
  CS50W Final Project Capstone-MyPokhara
 
- Youtube Video Link : https://www.youtube.com/watch?v=L3DeE4tJ0WQ
-
+ Youtube Video Link : https://www.youtube.com/watch?v=G1z2TftD8gM
 
 Introduction
 
