@@ -1,7 +1,7 @@
 CS50W Commerce 
 --------------
 
-Youtube Video Link : https://www.youtube.com/watch?v=5A2CPuD2BZc
+Youtube Video Link :  https://www.youtube.com/watch?v=taklBm7IVV0
 -----------------------------------------------------------------
 
 I have covered up all of these specification : 
